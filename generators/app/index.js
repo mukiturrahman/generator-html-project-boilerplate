@@ -10,7 +10,10 @@ module.exports = class extends Generator {
             this.templatePath("index.html"),
             this.destinationPath("index.html")
         );
-        this.fs.copy(this.templatePath("app"), this.destinationPath("app"));
+        this.fs.copy(
+            this.templatePath("assets"),
+            this.destinationPath("assets")
+        );
     }
 
     end() {
