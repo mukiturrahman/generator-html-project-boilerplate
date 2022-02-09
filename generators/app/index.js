@@ -17,14 +17,7 @@ module.exports = class extends Generator {
     }
 
     end() {
-        this.log(" ");
-        this.log(
-            "Finished generating! Before running, make sure you have the Gulp CLI installed globally, and you do NOT have Gulp itself installed globally."
-        );
-        this.log(" ");
-        this.log(
-            "Once you have the Gulp CLI installed globally, you can run 'gulp' in this project directory to run Gulp!"
-        );
+        this.log(" Happy Coding  🧑‍💻 ");
         this.log(" ");
     }
 };
